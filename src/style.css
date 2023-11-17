@@ -1,0 +1,35 @@
+body
+{
+	background-color: rgb(50, 50, 50);
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+h1
+{
+	text-align: center;
+	color: white;
+}
+h2
+{
+	text-align: center;
+	color: white;
+}
+#price-container
+{
+	background-color: rgb(30, 30, 30);
+}
+#canvas-container
+{
+	display: flex;
+	position: relative;
+	width: 100%;
+	height: 50%;  
+}
+canvas
+{
+	border-radius: 10px;
+	
+    display: block;
+    margin: 0 auto;
+}

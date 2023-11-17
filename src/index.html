@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEVES MARKET READER</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://www.google.com/jsapi"></script>
+</head>
+<body>
+    <h1>TEVES MARKET READER</h1>
+	<div id = "canvas-container">
+    	<canvas id="canvas" width="640" height="480"></canvas>
+	</div>
+    <h2 id="barcode_out">OUT</h2>
+    <div id = "price-container">
+		<h1 id="price_of_product">PRECIO</h1>
+	</div>
+    <audio id="audioPlayer" style="display:none;" controls>
+        <source src="barcode_sound.wav" type="audio/mp3">
+        Tu navegador no soporta la reproducción de audio.
+    </audio>
+	<script src="https://cdn.jsdelivr.net/npm/quagga@0.12.1/dist/quagga.min.js"></script>
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
