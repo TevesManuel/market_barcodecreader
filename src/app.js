@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 	    numOfWorkers: 8,
 	    locate: true,
 	    locator: {
-	        patchSize: "large",
+	        patchSize: "medium",
 	        halfSample: true
 	    }
 	}, function (err) {
