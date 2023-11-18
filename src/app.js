@@ -72,9 +72,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
 	            facingMode: "environment"
 	        },
 	    },
-	    decoder: {
-	        readers: ["ean_reader", "upc_reader", "code_128_reader"]
-	    },
+	    //decoder: {
+	    //    readers: ["ean_reader", "upc_reader", "code_128_reader"]
+	    //},
 	    numOfWorkers: 8,
 	    locate: true,
 	    locator: {
